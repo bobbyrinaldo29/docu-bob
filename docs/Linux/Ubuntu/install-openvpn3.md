@@ -1,7 +1,7 @@
-# Install OpenVPN 3 pada Ubuntu
+# Install OpenVPN 3
 
 ## Instalasi
-1. Pastikan `apt-transport-https` dan `curl` sudah terinstall di sistem.
+1. Pastikan `apt-transport-https` dan `curl` sudah ter-install di sistem.
 ```bash
 sudo apt install apt-transport-https curl -y
 ```
