@@ -1,5 +1,6 @@
 # Install OpenVPN 3 pada Ubuntu
 
+## Instalasi
 1. Pastikan `apt-transport-https` dan `curl` sudah terinstall di sistem.
 ```bash
 sudo apt install apt-transport-https curl -y
@@ -60,4 +61,24 @@ openvpn3 sessions-list
 10. Diskonek VPN
 ```bash
 openvpn3 session-manage --config YourVPNProfileName --disconnect
+```
+
+## OpenVPN 3 Indicator
+Hasil ekplorasi dari GitHub OpenVPN dan GitLab GNOME, para developer OpenVPN3 secara aktif masih mengerjakan plugin
+NetworkManager baru untuk OpenVPN3 di Linux. Ini menandakan plugin yang ada saat ini pada repo bawaan Linux
+masih menggunakan OpenVPN versi lama.
+
+Sebagai alternatif agar bisa menggunakan GUI, kita bisa menggunakan aplikasi pihak ketiga
+yaitu OpenVPN3 Indicator. Berikut cara instalasinya pada Ubuntu:
+
+1. Pastikan depedensi nya sudah terinstall
+```bash
+sudo apt install python3-gi gir1.2-ayatanaappindicator3-0.1 python3-secretstorage python3-setproctitle
+```
+
+2. tambahkan PPA dan install aplikasi
+```bash
+sudo add-apt-repository ppa:grzegorz-gutowski/openvpn3-indicator
+sudo apt update
+sudo apt install openvpn3-indicator
 ```
