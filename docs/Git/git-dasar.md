@@ -1,6 +1,9 @@
 ---
 title: Sintaks Dasar GIT
 description: Sintaks-sintaks Dasar pada GIT
+time: 2025-07-10
+author: Sukma Dewa
+tags: [git]
 ---
 
 Berikut beberapa sintaks yang biasa digunakan pada GIT CLI.

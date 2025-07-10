@@ -46,6 +46,7 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/bobbyrinaldo29',
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
@@ -64,6 +65,9 @@ const config: Config = {
         },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        pages: {
+          showLastUpdateTime: true, // Enable for pages
         },
       } satisfies Preset.Options,
     ],
