@@ -38,7 +38,7 @@ ssh sta<TAB> untuk kata `staging`
 ```
 
 Jika masih tidak muncul, kemungkinan script SSH Completion kamu tidak ter-load.
-Bisa lakukan dengan cara manual dengan cara:
+Bisa lakukan dengan cara manual
 ```bash
 source /usr/share/bash-completion/completions/ssh
 ```
