@@ -1,6 +1,9 @@
 ---
 title: Sintaks Dasar
 description: Sintaks-sintaks Dasar pada Docker
+time: 2025-07-10
+author: Sukma Dewa
+tags: [docker]
 ---
 
 ## Sintaks Dasar docker

@@ -1,6 +1,9 @@
 ---
 title: Membuat Docker Image
 description: Membuat Docker Image dari Dockerfile
+time: 2025-07-10
+author: Sukma Dewa
+tags: [docker]
 ---
 
 Membuat Docker image melibatkan pembuatan serangkaian instruksi 
